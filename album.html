@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>album</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		.logo{
+			height: 300px;
+			background-color: black;
+			
+		}
+
+		.logo img{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.navbar{
+			height: 80px;
+			padding-left: 40px;
+			padding-right: 200px;
+			background-color: gray;
+		}
+
+		.navbar #menu{
+			float: right;
+			list-style: none;
+		}
+
+		.navbar #menu li{
+			float: left;
+			margin-left: 30px;
+			line-height: 80px;
+		}
+
+		.navbar #menu li a{
+			font-size: 16px;
+			text-decoration: none;
+			font-weight: 700;
+			color: #1a1a1a;
+			display: block;
+		}
+
+		.navbar #menu .now{
+			color: #eeeeee;
+		}
+
+		.navbar #menu li a:hover{
+			
+			color: #eeeeee;
+		}
+		.container{
+			width: 1128px;
+			margin-bottom: 120px;
+			margin-top: 160px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.page-info{
+			border-bottom: 2px solid;
+			width: 400px;
+			padding-bottom: 12px;
+		}
+		.page-info p{
+			margin-top: 16px;
+		}
+
+		.prod{
+			float: left;
+			display: block;
+			text-align: center;
+			width: 246px;
+			text-decoration: none;
+			color: #545454;
+			margin-top: 44px;
+			}
+
+		.prod:not(:first-child){
+			margin-left: 48px;
+		}
+		.clearfix::after{
+			content: '';
+			clear: both;
+			display: block;
+		}
+		.prod:hover img{
+			transform: scale(1.025);
+
+		}
+
+		.content-info{
+			padding-top: 8px;
+			font-size: 16px;
+		}
+
+		h5{
+			font-size: 10px;
+		}
+
+		.content-text{
+			padding-top: 2px;
+			font-weight: 700;
+			font-size: 12px;
+		}
+
+		.review-head{
+			margin-top: 120px;
+			border-bottom: 2px solid;
+			width: 400px;
+			padding-bottom: 12px;
+		}
+
+		.review{
+			margin-top: 48px;
+			width: 1128px;
+		}
+
+		.review-image{
+			display: inline-block;
+		}
+
+		.review-info{
+			display: inline-block;
+			width: 864px;
+			height: 300px;
+			vertical-align: top;
+			text-align: center;
+			padding: 24px;
+		}
+		.review-info h1{
+			font-weight: 700;
+
+		}
+		.review-info h2{
+			color: #1a1a1a;
+			font-weight: 400;
+			font-size: 16px;
+		}
+		.review-info p{
+			margin-top: 16px;
+		}
+
+		.button{
+			display: inline-block;
+			border: 1px black solid;
+			width: 60px;
+			height: 32px;
+			border-radius: 8px;
+		/*	background-color: #61d800;*/
+			text-align: center;
+			margin-top: 24px;
+			text-decoration: none;
+		}
+		.button h3{
+			color: #eeeeee;
+			font-size: 12px;
+			line-height: 32px;
+		}
+
+		.button h3:hover{
+			
+			color: black;
+		}
+
+		.footer{
+			height: 40px;
+			background-color: black;
+			
+		}
+
+		.footer .icons{
+			float: right;
+			margin-right: 200px;
+			line-height: 40px;
+		}
+
+		.footer a{
+			margin-left: 10px;
+			margin-right: 10px;
+			text-decoration: none;
+		}
+
+		.footer{
+			color: #eeeeee;
+			font-size: 16px;
+			line-height: 40px;
+			padding-left: 200px;
+		}
+
+
+
+	</style>
+</head>
+<body>
+		<div class="logo">
+		<img src="image/logo.jpg" alt="logo">
+	</div>
+	<div class="navbar">
+
+	 <ul id="menu">
+	
+	 	<li><a href="index.html">Home</a></li>
+	 	<li><a href="wearing.html">Wearing</a></li>
+	 	<li><a href="album.html" class="now">Album</a></li>
+ 		<li><a href="about.html">About</a></li>
+	 </ul>
+	 </div>
+
+		
+
+	 <div class="container">
+
+	 	<div class="page-info"><h1>ALBUM</h1>
+		</div>
+	 <div class="product-list clearfix">
+		<a href="#" class="prod">
+   	 	<img src="image/se.png" alt="se" width="246">
+    	 	<div class="content-info"><h5>2021.06.12 | 조회 12,256</h5>[MODM : Original Saga]</div>
+    	 	<div class="content-text">쿤디판다, EP앨범 지금 모든 음원사이트에서 확인하세요! </div>
+    	 </a>
+		  <a href="#" class="prod">
+    	 	<img src="image/sike.png" alt="bignauty" width="246">
+    	 	<div class="content-info"><h5>2021.06.11 | 조회 34,225</h5>SIKE</div>
+    	 	<div class="content-text">빅나티, 6월 8일 발매 지금 모든 음원사이트에서 확인하세요!</div>
+    	 </a>
+    	  <a href="#" class="prod">
+    	 	<img src="image/noel.png" alt="noel" width="246">
+    	 	<div class="content-info"><h5>2021.04.29 | 조회 44,785</h5>[21'S/S]</div>
+    	 	<div class="content-text">노엘, 4월 29일 발매 지금 모든 음원사이트에서 확인하세요!</div>
+    	 </a>
+    	 <a href="#" class="prod">
+    	 	<img src="image/siren.png" alt="siren" width="246">
+    	 	<div class="content-info"><h5>2021.03.20 | 조회 84,785</h5>Siren Remix</div>
+    	 	<div class="content-text">호미들- 사이렌 Remix (Feat.UNEDUCATED KID, Paul Blanco)</div>
+    	 </a>
+   		</div>
+
+   			<div class="review-head"><h1>REVIEW</h1>
+   			</div>
+   			<div class="review">
+   				<div class="review-image">
+
+   					<img src="image/se.png" alt="" width="256" >
+   				</div>
+   				<div class="review-info">
+   					<h1>MODM : Original Saga</h1>
+   					<div class="review-text">
+   						<h2>Khundi Panda (쿤디판다)</h2>
+   						<p>‘가로사옥’은 2020년 최고의 앨범 중 하나였습니다. 내면의 사유를 하나의 건축물에 투영해 체계화 시켜 음악으로 변환한 컨셉은 그 창의성과 치밀함에 압도될 정도로 훌륭했습니다. 독특한 상상력과 그를 실행시킨 탄탄한 퍼포먼스의 이상적 결과였습니다. 하지만 이런 ‘가로사옥’은 Khundi Panda에게는 부담되는 앨범일 수도 있습니다. 항상 정규 단위의 작업물에 거대한 서사를....</p>
+   								<a href="#" class="button">
+									<h3>MORE</h3>
+								</a>
+   						
+   					</div>
+   				</div>
+   			</div>
+
+   			<div class="review">
+   				<div class="review-image">
+
+   					<img src="image/se.png" alt="" width="256" >
+   				</div>
+   				<div class="review-info">
+   					<h1>MODM : Original Saga</h1>
+   					<div class="review-text">
+   						<h2>Khundi Panda (쿤디판다)</h2>
+   						<p>‘가로사옥’은 2020년 최고의 앨범 중 하나였습니다. 내면의 사유를 하나의 건축물에 투영해 체계화 시켜 음악으로 변환한 컨셉은 그 창의성과 치밀함에 압도될 정도로 훌륭했습니다. 독특한 상상력과 그를 실행시킨 탄탄한 퍼포먼스의 이상적 결과였습니다. 하지만 이런 ‘가로사옥’은 Khundi Panda에게는 부담되는 앨범일 수도 있습니다. 항상 정규 단위의 작업물에 거대한 서사를....</p>
+   								<a href="#" class="button">
+									<h3>MORE</h3>
+								</a>
+   						
+   					</div>
+   				</div>
+   			</div>
+
+   			<div class="review">
+   				<div class="review-image">
+
+   					<img src="image/se.png" alt="" width="256" >
+   				</div>
+   				<div class="review-info">
+   					<h1>MODM : Original Saga</h1>
+   					<div class="review-text">
+   						<h2>Khundi Panda (쿤디판다)</h2>
+   						<p>‘가로사옥’은 2020년 최고의 앨범 중 하나였습니다. 내면의 사유를 하나의 건축물에 투영해 체계화 시켜 음악으로 변환한 컨셉은 그 창의성과 치밀함에 압도될 정도로 훌륭했습니다. 독특한 상상력과 그를 실행시킨 탄탄한 퍼포먼스의 이상적 결과였습니다. 하지만 이런 ‘가로사옥’은 Khundi Panda에게는 부담되는 앨범일 수도 있습니다. 항상 정규 단위의 작업물에 거대한 서사를....</p>
+   								<a href="#" class="button">
+									<h3>MORE</h3>
+								</a>
+   						
+   					</div>
+   				</div>
+   			</div>
+   	</div>
+	<div class="footer">
+		FASHION AND HIP-HOP / LIFE STYLE SELECT SHOP WWW.IWEAR.COM
+		<div class="icons">
+		<a href="https://www.facebook.com/"> <img src="image/facebook.png" alt="facebook" height="20"></a>
+     	<a href="https://www.instagram.com/"> <img src="image/instagram.png" alt="instagram" height="20"></a>
+     	<a href="https://www.twitter.com/"> <img src="image/twitter.png" alt="twitter" height="20"></a>
+		</div>	
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>wearpage</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		.logo{
+			height: 300px;
+			background-color: black;
+			
+		}
+
+		.logo img{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.navbar{
+			height: 80px;
+			padding-left: 40px;
+			padding-right: 200px;
+			background-color: gray;
+		}
+
+		.navbar #menu{
+			float: right;
+			list-style: none;
+		}
+
+		.navbar #menu li{
+			float: left;
+			margin-left: 30px;
+			line-height: 80px;
+		}
+
+		.navbar #menu li a{
+			font-size: 16px;
+			text-decoration: none;
+			font-weight: 700;
+			color: #1a1a1a;
+			display: block;
+		}
+
+/*		.navbar #menu .now{
+			color: #eeeeee;
+		}*/
+
+		.navbar #menu li a:hover{
+			
+			color: #eeeeee;
+		}
+
+		.container{
+			width: 1128px;
+			margin-bottom: 120px;
+			margin-top: 80px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.con-left{
+			display: inline-block;
+		}
+
+		.con-right{
+			/*광고*/
+			display: inline-block;
+			vertical-align: top;
+			width: 420px;
+			margin-top: 150px;
+			padding-left: 160px;
+
+		}
+
+		.page-info{
+			border-bottom: 2px solid;
+			width: 700px;
+			padding-bottom: 12px;
+		}
+		.page-info p{
+			margin-top: 16px;
+			font-size: 12px;
+		}
+
+		.mainimage{
+			margin-top: 48px;
+		}
+
+		.content{
+			margin-top: 48px;
+			width: 700px;
+		}
+
+		.content-image{
+			display: inline-block;
+			width: 80px;
+		}
+
+		.content-text{
+			display: inline-block;
+			  vertical-align:top;
+		}
+		.content-text p{
+			font-size: 12px;
+		}
+
+		.wearprod{
+			margin-top: 48px;
+			font-size: 16px;
+		}
+
+		.prod{
+			float: left;
+			display: block;
+			text-align: center;
+			width: 246px;
+			text-decoration: none;
+			color: #545454;
+			margin-top: 16px;
+			}
+
+		.prod:not(:first-child){
+			margin-left: 48px;
+		}
+		.clearfix::after{
+			content: '';
+			clear: both;
+			display: block;
+		}
+		.prod:hover img{
+			transform: scale(1.025);
+
+		}
+
+		.prod-info{
+			padding-top: 8px;
+			font-size: 16px;
+		}
+
+		.prod-info h5{
+			font-size: 12px;
+			line-height: 12px;
+		}
+
+		.prod-text{
+			padding-top: 2px;
+			font-size: 12px;
+		}
+
+		.footer{
+			height: 40px;
+			background-color: black;
+			
+		}
+
+		.footer .icons{
+			float: right;
+			margin-right: 200px;
+			line-height: 40px;
+		}
+
+		.footer a{
+			margin-left: 10px;
+			margin-right: 10px;
+			text-decoration: none;
+		}
+
+		.footer{
+			color: #eeeeee;
+			font-size: 16px;
+			line-height: 40px;
+			padding-left: 200px;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<div class="logo">
+		<img src="image/logo.jpg" alt="logo">
+	</div>
+	<div class="navbar">
+
+	 <ul id="menu">
+	
+	 	<li><a href="index.html">Home</a></li>
+	 	<li><a href="wearing.html">Wearing</a></li>
+	 	<li><a href="album.html" class="now">Album</a></li>
+ 		<li><a href="about.html">About</a></li>
+	 </ul>
+	 </div>
+
+<div class="container">
+	 	<div class="con-left">
+	 	<div class="page-info"><h1>진정한 패션왕 트래비스 스캇 Travis Scott 의 스타일을 알아보자!</h1>
+	 		From<a href="https://www.instagram.com/travisscott/"> <img src="image/instagram.png" alt="instagram" height="20"></a>
+			<p><i>2021.06.11 | 조회 34,225</i></p>
+		</div>
+		<div class="mainimage"> <img src="image/travi.png" alt="travis" width="700">
+			</div>
+		<div class="content">
+			<div class="content-image"> <img src="image/travis.png" alt="travis" width="80px">
+			</div>
+			<div class="content-text">
+			 <h2>Travis Scott	</h2>
+			<p>	Rapper, producer</p>
+			</div>
+		</div>
+		
+	</div>
+	<div class="con-right">			
+		 <a href="#" >
+    	 	<img src="image/adidas.jpg" alt="adidas" width="246px" height="700px">
+
+    	 </a>
+
+		</div>
+		<div class="wearprod"><h2>착용상품</h2></div>
+
+ 	<div class="product-list clearfix">
+		<a href="#" class="prod">
+    	 	<img src="image/pradaSunglasses.png" alt="prada" width="246px" height="246">
+    	 	<div class="prod-info"> <h5>prada</h5>Linea Rossa Sunglasses</div>
+    	 	<div class="prod-text">320,000KRW</div>
+    	 </a>
+		 <a href="#" class="prod">
+    	 	<img src="image/maison.png" alt="Maison Margiela" width="246px" height="246">
+    	 	<div class="prod-info"> <h5>Maison Margiela</h5>Layered hoodie</div>
+    	 	<div class="prod-text">1,350,000KRW</div>
+    	 </a>	 
+    	 <a href="#" class="prod">
+    	 	<img src="image/brain.png" alt="Brain Dead" width="246px" height="246">
+    	 	<div class="prod-info"> <h5> Brain Dead</h5>Navy Multi Runners Pants</div>
+    	 	<div class="prod-text">240,000KRW</div>
+    	 </a>	 
+    	 <a href="#" class="prod">
+    	 	<img src="image/Lanvin.png" alt="Lanvin" width="246px" height="246">
+    	 	<div class="prod-info"> <h5>Lanvin</h5>Zig-Zag Lace Up Sneakers</div>
+    	 	<div class="prod-text">950,000KRW</div>
+    	 </a>
+   	</div>
+
+</div>
+
+	    			<div class="footer">
+		FASHION AND HIP-HOP / LIFE STYLE SELECT SHOP WWW.IWEAR.COM
+		<div class="icons">
+		<a href="https://www.facebook.com/"> <img src="image/facebook.png" alt="facebook" height="20"></a>
+     	<a href="https://www.instagram.com/"> <img src="image/instagram.png" alt="instagram" height="20"></a>
+     	<a href="https://www.twitter.com/"> <img src="image/twitter.png" alt="twitter" height="20"></a>
+		</div>	
+	
+</body>
+</html>

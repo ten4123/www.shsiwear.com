@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wearing</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		.logo{
+			height: 300px;
+			background-color: black;
+			
+		}
+
+		.logo img{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.navbar{
+			height: 80px;
+			padding-left: 40px;
+			padding-right: 200px;
+			background-color: gray;
+		}
+
+		.navbar #menu{
+			float: right;
+			list-style: none;
+		}
+
+		.navbar #menu li{
+			float: left;
+			margin-left: 30px;
+			line-height: 80px;
+		}
+
+		.navbar #menu li a{
+			font-size: 16px;
+			text-decoration: none;
+			font-weight: 700;
+			color: #1a1a1a;
+			display: block;
+		}
+
+		.navbar #menu .now{
+			color: #eeeeee;
+		}
+
+		.navbar #menu li a:hover{
+			
+			color: #eeeeee;
+		}
+		.container{
+			width: 1128px;
+			margin-bottom: 120px;
+			margin-top: 160px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.page-info{
+			border-bottom: 2px solid;
+			width: 400px;
+			padding-bottom: 12px;
+		}
+		.page-info p{
+			margin-top: 16px;
+		}
+
+
+
+		.button{
+			display: inline-block;
+			border: 1px white solid;
+			width: 60px;
+			height: 32px;
+			border-radius: 16px;
+			background-color: #61d800;
+			text-align: center;
+			margin-top: 16px;
+			text-decoration: none;
+		}
+
+		.button:not(:first-child){
+			margin-left: 16px;
+		}
+
+
+		.button h3{
+			color: #eeeeee;
+			font-size: 16px;
+			line-height: 32px;
+		}
+
+		.button h3:hover{
+			
+			color: black;
+		}
+
+		.prod{
+			float: left;
+			display: block;
+			text-align: center;
+			width: 246px;
+			text-decoration: none;
+			color: #545454;
+			margin-top: 44px;
+			}
+
+		.prod:not(:first-child){
+			margin-left: 48px;
+		}
+		.clearfix::after{
+			content: '';
+			clear: both;
+			display: block;
+		}
+		.prod:hover img{
+			transform: scale(1.025);
+
+		}
+
+		.content-info{
+			padding-top: 8px;
+			font-size: 16px;
+		}
+
+		h5{
+			font-size: 10px;
+		}
+
+		.content-text{
+			padding-top: 2px;
+			font-weight: 700;
+			font-size: 12px;
+		}
+
+
+		.more_button{
+			display: block;
+			border: 2px solid;
+			border-radius: 16px;
+			text-align: center;
+			line-height: 48px;
+			width: 196px;
+			height: 48px;
+			text-decoration: none;
+			color: black;
+			margin: 96px auto 64px auto;
+		}
+
+		.more_button:hover{
+			background-color: black;
+			color: #eeeeee;
+		}
+		.footer{
+			height: 40px;
+			background-color: black;
+			
+		}
+
+		.footer .icons{
+			float: right;
+			margin-right: 200px;
+			line-height: 40px;
+		}
+
+		.footer a{
+			margin-left: 10px;
+			margin-right: 10px;
+			text-decoration: none;
+		}
+
+		.footer{
+			color: #eeeeee;
+			font-size: 16px;
+			line-height: 40px;
+			padding-left: 200px;
+		}
+
+
+		
+	</style>
+</head>
+<body>
+			<div class="logo">
+		<img src="image/logo.jpg" alt="logo">
+	</div>
+	<div class="navbar">
+
+	 <ul id="menu">
+	
+	 	<li><a href="index.html">Home</a></li>
+	 	<li><a href="wearing.html"  class="now">Wearing</a></li>
+	 	<li><a href="album.html">Album</a></li>
+ 		<li><a href="about.html">About</a></li>
+	 </ul>
+	 </div>
+
+	<div class="container">
+		<div class="page-info"><h1>WEARING</h1>
+			<p><i>여러 매체에서 그들의 착장을 확인할 수 있습니다.</i></p></div>
+		 
+		 <div class="button-help">
+			<a href="#" class="button">
+				<h3>SNS</h3>
+			</a>
+			<a href="#" class="button">
+				<h3>TV</h3>
+			</a>
+			<a href="#" class="button">
+				<h3>M/V</h3>
+			</a>
+		</div>
+
+		<div class="product-list clearfix">
+		<div id="musicvideo">
+			 <a href="wearpage.html" class="prod">
+    	 	<img src="image/travis.png" alt="travis" width="246">
+    	 	<div class="content-info"> <h5>2021.05.24 | 조회 64,225</h5>트래비스 스캇의 SNS 스타일</div>
+    	 	<div class="content-text">HOT</div>
+    	 </a>
+    	 	 <a href="wearpage.html" class="prod">
+    	 	<img src="image/yumdda.png" alt="yumdda" width="246">
+    	 	<div class="content-info"> <h5>2021.05.24 | 조회 64,225</h5>염따의 FLEX 한 뮤비</div>
+    	 	<div class="content-text">HOT</div>
+    	 </a>
+    	 	 <a href="wearpage.html" class="prod">
+    	 	<img src="image/travi.png" alt="travi" width="246" height="246">
+    	 	<div class="content-info"> <h5>2021.05.24 | 조회 64,225</h5>트래비스 스캇의 SNS 스타일</div>
+    	 	<div class="content-text">HOT</div>
+    	 </a>
+     	 	 <a href="wearpage.html" class="prod">
+      	 	<img src="image/travis.png" alt="travis" width="246">
+    	 	<div class="content-info"> <h5>2021.05.24 | 조회 64,225</h5>트래비스 스캇의 SNS 스타일</div>
+    	 	<div class="content-text">HOT</div>
+    	 </a>
+    	 </div>
+    	</div>
+    	 <div class="product-list clearfix">
+		<div id="musicvideo">
+			 <a href="wearpage.html" class="prod">
+        	 	<img src="image/travis.png" alt="travis" width="246">
+    	 	<div class="content-info"> <h5>2021.05.24 | 조회 64,225</h5>트래비스 스캇의 SNS 스타일</div>
+    	 	<div class="content-text">HOT</div>
+    	 </a>
+    	 	 <a href="wearpage.html" class="prod">
+    	 	<img src="image/travis.png" alt="travis" width="246">
+    	 	<div class="content-info"> <h5>2021.05.24 | 조회 64,225</h5>트래비스 스캇의 SNS 스타일</div>
+    	 	<div class="content-text">HOT</div>
+    	 </a>
+    	 	 <a href="wearpage.html" class="prod">
+    	 	<img src="image/travis.png" alt="travis" width="246">
+    	 	<div class="content-info"> <h5>2021.05.24 | 조회 64,225</h5>트래비스 스캇의 SNS 스타일</div>
+    	 	<div class="content-text">HOT</div>
+    	 </a>
+     	 	 <a href="wearpage.html" class="prod">
+    	 	<img src="image/travis.png" alt="travis" width="246">
+    	 	<div class="content-info"> <h5>2021.05.24 | 조회 64,225</h5>트래비스 스캇의 SNS 스타일</div>
+    	 	<div class="content-text">HOT</div>
+    	 </a>
+    	</div>
+   		</div>
+    	 <div class="product-list clearfix">
+		<div id="musicvideo">
+			 <a href="wearpage.html" class="prod">
+    	 	<img src="image/beenzino.png" alt="beenzino" width="246">
+    	 	<div class="content-info"> <h5>2021.05.24 | 조회 64,225</h5>빈지노는 뭐 입는지 보러올래?</div>
+    	 	<div class="content-text">HOT</div>
+    	 </a>
+    	 	 <a href="wearpage.html" class="prod">
+    	 	<img src="image/beenzino.png" alt="beenzino" width="246">
+    	 	<div class="content-info"> <h5>2021.05.24 | 조회 64,225</h5>빈지노는 뭐 입는지 보러올래?</div>
+    	 	<div class="content-text">HOT</div>
+    	 </a>
+    	 	 <a href="wearpage.html" class="prod">
+    	 	<img src="image/beenzino.png" alt="beenzino" width="246">
+    	 	<div class="content-info"> <h5>2021.05.24 | 조회 64,225</h5>빈지노는 뭐 입는지 보러올래?</div>
+    	 	<div class="content-text">HOT</div>
+    	 </a>
+     	 	 <a href="wearpage.html" class="prod">
+    	 	<img src="image/beenzino.png" alt="beenzino" width="246">
+    	 	<div class="content-info"> <h5>2021.05.24 | 조회 64,225</h5>빈지노는 뭐 입는지 보러올래?</div>
+    	 	<div class="content-text">HOT</div>
+    	 </a>
+    	 	</div>
+    	 </div>
+		</div>
+
+    	 <a href="#" class="more_button">
+    	 	<h3>더 보기</h3>
+    	 </a>
+
+    	 	<div class="footer">
+		FASHION AND HIP-HOP / LIFE STYLE SELECT SHOP WWW.IWEAR.COM
+		<div class="icons">
+		<a href="https://www.facebook.com/"> <img src="image/facebook.png" alt="facebook" height="20"></a>
+     	<a href="https://www.instagram.com/"> <img src="image/instagram.png" alt="instagram" height="20"></a>
+     	<a href="https://www.twitter.com/"> <img src="image/twitter.png" alt="twitter" height="20"></a>
+		</div>	
+	</div>
+
+	
+</body>
+</html>
